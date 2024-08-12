@@ -1,0 +1,5 @@
+# ignore git config file
+*.editorconfig
+
+#ignore all files in temp folder
+temp/
