@@ -1,5 +1,19 @@
-# ignore git config file
-*.editorconfig
+# IDE
+.vscode
+.idea
+
+# Node dependency directories
+node_modules/
+*/node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# macOS files
+.DS_Store
 
 #ignore all files in temp folder
 temp/
