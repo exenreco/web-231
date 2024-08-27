@@ -2,7 +2,7 @@
     Chapter 1
     Hands-On Project 1-2
 
-    Author: Exenreco Bell
+    Author: Exenreco E. Bell
     Date:   08/12/2024
 
     Filename: project01-02.js
