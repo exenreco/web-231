@@ -3,7 +3,7 @@
     Project 02-04
 
     Application to calculate the cost of a restaurant order plus tax
-    Author: Exenreco Bell
+    Author: Exenreco E. Bell
     Date: 08/26/2024
 
     Filename: project02-04.js
