@@ -6,8 +6,8 @@
       Chapter 7
       Hands-on Project 7-1
 
-      Author: 
-      Date:   
+      Author: Exenreco Bell
+      Date:   08/27/2024
 
       Filename: formsubmit.html
    -->
@@ -16,7 +16,7 @@
    <title>Hands-on Project 7-1</title>
    <link rel="stylesheet" href="styles.css" />
    <script>
-      window.addEventListener("load", function(){   
+      window.addEventListener("load", function(){
          // Retrieve the field/value pairs from the URL
          var formData = location.search.slice(1);
          formData = formData.replace(/\+/g," ");
@@ -24,9 +24,9 @@
          let formFields = formData.split(/[&=]/g);
 
          // Write the field values to the account table
-         document.getElementById("username").textContent = formFields[1]; 
-         document.getElementById("pwd").textContent = formFields[3];          
-      } );   
+         document.getElementById("username").textContent = formFields[1];
+         document.getElementById("pwd").textContent = formFields[3];
+      } );
    </script>
 </head>
 
@@ -47,7 +47,7 @@
          <tr>
             <td>Password</td>
             <td><span id="pwd"></span></td>
-         </tr>             
+         </tr>
       </table>
    </section>
 </body>
